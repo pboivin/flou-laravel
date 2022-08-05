@@ -1,7 +1,7 @@
 {
     "name": "pboivin/flou-laravel",
     "description": "PHP image lazy loading toolbox for prototypes and static sites.",
-    "keywords": ["php", "images", "lazy", "loading", "lqip", "glide"],
+    "keywords": ["laravel", "images", "lazy", "loading", "lqip", "glide"],
     "homepage": "https://github.com/pboivin/flou",
     "license": "MIT",
     "support": {
@@ -16,6 +16,7 @@
     ],
     "require": {
         "php": ">=8.0",
+        "laravel/framework": "^6.0|^7.0|^8.0|^9.0",
         "pboivin/flou": "^1.0"
     },
     "require-dev": {
