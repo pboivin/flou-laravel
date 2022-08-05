@@ -30,7 +30,7 @@ First, publish the configuration file:
 php artisan vendor:publish --tag=flou-config
 ```
 
-Edit the `config/flou.php` to match your project's configuration.
+Edit `config/flou.php` to match your project's configuration.
 
 From there, you can use all features through the `Flou` facade. For example:
 
