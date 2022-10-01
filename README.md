@@ -36,18 +36,9 @@ From there, you can use all features through the `Flou` facade. For example:
 
 ```php
 {!! Flou::imageSet([
-        'sources' => [
-            [
-                'image' => 'portrait.jpg',
-                'width' => '1023',
-                'media' => '(max-width: 1023px)',
-            ],
-            [
-                'image' => 'landscape.jpg',
-                'width' => '1024',
-                'media' => '(min-width: 1024px)',
-            ],
-        ],
+        'image' => 'my-image.jpg',
+        'widths' => [400, 800, 1200, 1600],
+        'formats' => ['webp', 'jpg'],
     ])
     ->render()
     ->picture(['class' => 'my-image', 'alt' => 'Lorem ipsum']);
