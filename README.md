@@ -11,7 +11,7 @@ This package provides [Laravel](https://github.com/laravel/laravel) integration 
 **Requirements:**
 
 - PHP >= 8.0
-- Laravel >= 6.0
+- Laravel >= 9.0
 
 
 ## Installing 
